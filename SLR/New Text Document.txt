@@ -1,0 +1,9 @@
+#######Infernce
+
+1. After using Stats model, we got the significant features contributing to the model
+2. all of the assumptions were meet, except for the Multi-colinearity
+3. so the featuring engineering didnt bring down the over fitting model
+4. after all the evalution, RFE with Eastic Net regressor bought down the overfitting value to 0.92 also test error is less than train
+5. the features that are imp for regression in prediction employee compensation are 
+[['Year','Union Code','Department Code','Organization Group Code','Job Code','Job Family Code']]
+[['Overtime','Other Salaries','Health and Dental','Other Benefits','Salaries']]
